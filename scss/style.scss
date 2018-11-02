@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  margin: auto;
+  // background: -webkit-linear-gradient(to left, #16aedf, #5469ec);  /* Chrome 10-25, Safari 5.1-6 */
+	// background: linear-gradient(to left, #16aedf, #5469ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-sizing: border-box;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  // background: #ffc600;
+  background: #1384cf;
+  font-family: 'Amatic SC', cursive;
+}
+
+.quote-text {
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  opacity: 0.5;
+  font-size: 5rem;
+
+}
+
+
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: #eee;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.34);
+  min-height: 60vh;
+  transform: rotate(-3deg);
+
+  display: flex;
+
+  //border: 2px solid pink;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+
+  h1 {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Arial", serif;
+    font-size: 0.8rem;
+    color: white;
+    //opacity: 0.5;
+    //border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+
+  }
+}
+
+.button-press {
+  cursor: pointer;
+  margin-top:auto;
+}
